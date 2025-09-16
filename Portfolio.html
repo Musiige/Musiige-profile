@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile - Portfolio</title>
+    
+    <style>
+        body {
+            /* Sets the background image and its properties */
+            background-image: url('bg3.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            
+            /* Styles for text to ensure readability on the background image */
+            color: #e0e0e0;
+            font-family: Arial, sans-serif;
+            text-shadow: 1px 1px 2px black;
+        }
+
+        /* Styles for the navigation and footer to sit on top of the content */
+        header, footer {
+            background-color: rgba(0, 0, 0, 0.6);
+            padding: 10px;
+            text-align: center;
+        }
+		 nav a {
+        color: #ffffff; /* Sets the link text color to white */
+        text-decoration: none; /* Removes the underline from links */
+        background-color: rgba(255, 255, 255, 0.1); /* Adds a subtle, semi-transparent background */
+        padding: 8px 15px; /* Adds space around the text to create a button shape */
+        border-radius: 20px; /* Rounds the corners for a pill-like look */
+        margin: 0 5px; /* Adds space between each button */
+        border: 1px solid rgba(255, 255, 255, 0.3); /* Adds a light border */
+        transition: background-color 0.3s, border-color 0.3s; /* Smooth transition for hover effect */
+    }
+
+    nav a:hover {
+        background-color: rgba(255, 255, 255, 0.3); /* Changes background on hover */
+        border-color: rgba(255, 255, 255, 0.6); /* Changes border on hover */
+    }
+
+        /* Styles for the main content section */
+        section {
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 20px;
+            margin: 50px auto;
+            max-width: 800px; /* Increased max-width for better table display */
+            border-radius: 10px;
+        }
+
+        /* Center headings within the section */
+        h2, h3 {
+            text-align: center;
+        }
+        
+        /* Styles for the table */
+        table {
+            width: 100%; /* Makes the table fill the section width */
+            border-collapse: collapse; /* Removes space between table borders */
+            margin-top: 20px;
+        }
+
+        th, td {
+            border: 1px solid rgba(224, 224, 224, 0.4); /* Lighter border for a cleaner look */
+            padding: 12px;
+            text-align: left; /* Left-aligns the text within cells for readability */
+        }
+        
+        th {
+            background-color: rgba(255, 255, 255, 0.1); /* Slightly transparent header background */
+            font-weight: bold;
+        }
+
+        tr:nth-child(even) {
+            background-color: rgba(255, 255, 255, 0.05); /* Adds subtle zebra striping for readability */
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Portfolio/Projects</h1>
+        <nav>
+            <a href="homepage.html">Home</a> |
+            <a href="Aboutme.html">About Me</a> |
+            <a href="Portfolio.html">Portfolio</a> |
+            <a href="Interests.html">Interests</a> |
+            <a href="Contactme.html">Contact Me</a>
+        </nav>
+    </header>
+
+    <section>
+        <h2>My Personal Training & Academic Projects</h2>
+        <h3>Project Showcase</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Project Name</th>
+                    <th>Description</th>
+                    <th>Key Skills & Tools Used</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Client Transformation Case Study</td>
+                    <td>Documented a detailed case study of a client's 12-week fitness journey. This project included initial assessments, goal-setting, a tailored training program, and a nutritional plan, highlighting measurable results and lessons learned.</td>
+                    <td>Client Assessment, Program Design, Nutrition Planning</td>
+                </tr>
+                <tr>
+                    <td>Community Group Fitness Program</td>
+                    <td>Designed and led a 6-week group fitness program for my local community. The program focused on functional fitness for all ages and fitness levels, promoting a healthy and inclusive environment.</td>
+                    <td>Group Training, Class Management, Community Engagement</td>
+                </tr>
+                <tr>
+                    <td>Online Fitness Blog & Content</td>
+                    <td>Developed a personal blog to share evidence-based fitness tips, workout routines, and motivational content. This project demonstrates my ability to communicate complex topics clearly to a general audience.</td>
+                    <td>Content Creation, Digital Marketing, HTML/CSS (for blog)</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Musiige Alfred Junior. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
